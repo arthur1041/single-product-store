@@ -1,0 +1,48 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+.product-stuff-wrapper .grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.product-stuff-wrapper .media-wrapper .image-gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-stuff-wrapper .media-wrapper .current-img, .product-stuff-wrapper .media-wrapper .thumbnais-wrapper {
+  width: 70%;
+}
+
+.product-stuff-wrapper .media-wrapper .current-img img {
+  width: 100%;
+}
+
+.product-stuff-wrapper .media-wrapper .thumbnais-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.product-stuff-wrapper .media-wrapper .thumbnais-wrapper .thumbnail {
+  height: 50px;
+}
+
+.product-stuff-wrapper .media-wrapper .thumbnais-wrapper .thumbnail img {
+  height: 100%;
+}
+
+.product-stuff-wrapper .media-wrapper .thumbnais-wrapper .thumbnail {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-stuff-wrapper .media-wrapper .thumbnais-wrapper .thumbnail:first-child {
+  margin-left: 0;
+}
+
+.product-stuff-wrapper .media-wrapper .thumbnais-wrapper .thumbnail:last-child {
+  margin-right: 0;
+}
