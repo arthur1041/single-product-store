@@ -1,5 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
+
+/* product section start */
 .product-stuff-wrapper .grid {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -46,3 +48,19 @@
 .product-stuff-wrapper .media-wrapper .thumbnais-wrapper .thumbnail:last-child {
   margin-right: 0;
 }
+
+.product-stuff-wrapper .content-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-stuff-wrapper .content-wrapper .content .description, .product-stuff-wrapper .content-wrapper .content .purchase-button {
+  width: 50%;
+}
+
+.product-stuff-wrapper .content-wrapper .content .description {
+  line-height: 35px;
+}
+
+/* product section end */
