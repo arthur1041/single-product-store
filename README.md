@@ -1,1 +1,1 @@
-# Frontend of a single product store
+# Frontend of a single-product store
